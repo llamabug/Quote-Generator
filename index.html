@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <title>Quote Generator</title>
+        <link rel="icon" type="image/x-icon" href="Resources/star.svg">
+        <style>
+            body {
+                cursor: url('Resources/cursor.png'), auto;
+            }
+        </style>
+    </head>
+    <body>
+            <audio id="music" autoplay loop>
+                <source src="Resources/audioFile.mp3" type="audio/mp3">
+            </audio>
+            <button  onclick="mute()" id="muteButton">
+                <img id="muteImg" src="Resources/unmuted.svg" width="40">
+            </button>
+            <div class="box">
+                <h1>⭒ Quote Generator ⭒</h1>
+                <p class="typewriter">"Everyday is a chance to get better"</p>
+                <button id="newQuote">New Quote</button>
+            </div>
+            <script src="script.js"></script>
+
+
+        <!--Music from #Uppbeat (free for Creators!):
+https://uppbeat.io/t/brock-hewitt-stories-in-sound/quiet-streams-->
+    </body>
+

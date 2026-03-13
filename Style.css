@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Amanilla;
+    src: url(Resources/Amanilla.ttf);
+}
+
+
+body {
+  background-image: url("Resources/wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: colourChange 20s infinite alternate;
+}
+
+p {
+    font-family: Playfair Display;
+    font-style: italic;
+    font-size: 3vw;
+    margin: 2vw;
+    color: #7b429c;
+}
+
+h1 {
+    margin-top: 5vw;
+    font-size: 4vw;
+    font-family: Amanilla;
+    animation: colorChange 10s infinite alternate;
+      
+      
+}
+
+@keyframes colourChange {
+    0%{ background-color: #F7C9FD;}
+    33%{ background-color: #CADCFB;}
+    66%{ background-color: #B5BBFE;}
+}
+@keyframes colorChange {
+    0%{  color: #b3508e;}
+    50%{ color: #7e7ec4;}
+    100%{color: #b3508e;}
+}
+
+.box {
+    width: 65vw;
+    height: 65vh;
+    border-radius: 30px;
+    background-color: #E8EAFF;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    animation: float 4s ease-in-out infinite;
+    z-index: 5;
+}
+
+#newQuote {
+    background-color: #ff99c8;
+    border-radius: 25px;
+    border-color: #e4c1f9;
+    color: #7b429c;
+    cursor: pointer;
+    font-family: Amanilla;
+    font-weight: bold;
+    font-size: 1vw;
+    bottom: 0;
+    margin-bottom: 5vw;
+}
+
+#newQuote:hover {
+    transform: scale(1.05);
+}
+
+#muteButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#muteButton:hover {
+    transform: scale(1.05);
+}
+
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
