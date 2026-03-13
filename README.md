@@ -9,6 +9,3 @@ A website where you can generate motivational quotes
   <li>A custom mouse image + a glitter trail to follow it</li>
   <li>Calming music that can be muted/unmuted (please note autoplay doesn't work on all browsers - you may have to start it by clicking on the screen)</li>
 </ul>
-<hr>
-<h3>Screenshot</h3>
-!(/Resources/Screenshot.png)
