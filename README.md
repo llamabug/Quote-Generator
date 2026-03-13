@@ -11,4 +11,4 @@ A website where you can generate motivational quotes
 </ul>
 <hr>
 <h3>Screenshot</h3>
-!(Resources/Screenshot.png)
+!(/Resources/Screenshot.png)
